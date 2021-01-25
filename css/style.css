@@ -62,9 +62,6 @@ margin-top: 0px !important;
 	
 }
 
-
-
-
 .button-large a:hover {
 background:#049adb !important;
 color:#fff !important;
@@ -395,6 +392,8 @@ margin-bottom: 0px;
 .dollar {
 	border-radius: 0px 0px 5px 5px !important;
 }
+
+/*************Accordion-blog***************/
 .Accordion-blog {
 	width: 100%;
 	display: block;
@@ -413,4 +412,143 @@ margin-bottom: 0px;
 	margin-bottom: 30px;
 	text-align: center;
 }
+.accordion-item {
+   background:#fff;
+   margin-bottom: 10px;
+   border-radius: 3px;
+}
+.accordion-button:not(.collapsed) {
+	color:unset;
+	background-color: #fff;
+}
  
+.accordion-button {
+ color: #333333 !important;
+ font-size: 22px !important;
+ font-weight: 600;
+ line-height: 24px;
+ 
+}
+
+.accordion-body{
+font-size: 16px;
+color:#555555;
+}
+.book-btn {
+display: block;
+text-align: center;
+}
+
+.Book{
+display: inline-block;
+color: #0f76c5;
+font-size: 18px;
+padding: 20px 45px;
+background: #fff;
+border-radius: 10px;
+text-decoration: none;
+margin-top: 20px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+}
+
+/*********footer**********/
+footer {
+width: 100%;
+padding: 90px 0px;
+}
+.footer-logo {
+	padding-bottom: 25px;
+	border-bottom: 2px solid aliceblue;
+	margin-bottom: 25px;
+}
+.footer-logo img {
+	width: 100%;
+	max-width: 277px;
+	object-fit: cover;
+}
+.home-partner {
+	display: flex;
+	flex-wrap: wrap;  
+}
+.social-text {
+	max-width:100%;
+	width:20%;
+	padding-left: 0px;
+}
+.social-text li {
+	list-style: none;
+	padding-bottom: 20px;
+}
+.social-text li a {
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.P_H {
+width: 70%;
+margin: 0 auto;
+
+}
+.P_H h5 {
+font-size: 16px;
+color: #000;
+font-weight: 600;
+text-transform: capitalize;
+margin-bottom: 15px;
+}
+.social-img {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.social-img {
+padding-left: 0;
+}
+.social-img li {
+list-style: none;
+}
+
+.shadow-box {
+	width: 75%;
+	box-shadow: 0 0 22px #0000001a;
+	padding: 30px;
+	margin: 0 auto;
+	max-width: 100%;
+	text-align:center;
+}
+
+.shadow-box h3 {
+	background-image: linear-gradient(to right, rgb(14, 120, 198), rgb(14, 120, 198)33%, rgba(8,142,213,1) 66%, rgba(8,142,213,1));
+	color: transparent;
+	-webkit-background-clip: text;
+	font-family: 'Montserrat', sans-serif !important;
+	background-clip: text;
+	font-size: 27px !important;
+	font-weight: bold !important;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.email a {
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight:500;
+	text-decoration-thickness: auto;
+	margin: 20px 0px !important;
+	color: #000;
+	display: block;
+}
+
+.phone h4 a {
+	font-size: 24px !important;
+	margin-top: 20px;
+	color: #333333;
+    text-decoration: none;
+	margin-top: 20px;
+	display: block;
+}
