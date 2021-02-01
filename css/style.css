@@ -245,6 +245,7 @@ padding-bottom: 70px;
 display: flex;
 justify-content: space-between;
 width: 1170px;
+max-width:100%;
 margin: 0 auto;
 padding:0px 15px
 }
@@ -453,6 +454,36 @@ text-align: center;
 text-transform: uppercase;
 }
 
+
+/*********how it works***********/
+
+.How-it-banner {
+	width: 100%;
+	display: block;
+	background: url(../images/how-it-banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+.H-b-H {
+	margin-top: 250px;
+}
+.H-b-H h1 {
+	font-size: 48px !important;
+	font-weight: bold !important;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+.step-section {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	padding: 100px 0px;
+}
+
 /*********footer**********/
 footer {
 width: 100%;
@@ -552,3 +583,68 @@ list-style: none;
 	margin-top: 20px;
 	display: block;
 }
+
+@media only screen and (max-width:1199px){ 
+.navbar.navbar-expand-lg ul li {
+padding: 0px 10px;
+}
+.banner-heading h1 {
+font-size: 50.9px;
+}
+.about-heading h1 {
+font-size: 40px !important;
+}
+.sky-heading h1 {
+font-size: 40px !important;
+}
+.A-h h1 {
+font-size: 40px !important;
+}
+.accordion-button {		
+font-size: 20px !important;
+}
+}
+@media only screen and (max-width:991px){ 
+.navbar.navbar-expand-lg {
+	float: unset;
+	text-align: center;
+overflow: visible;
+}
+.navbar-toggler {
+	position: absolute;
+	top: -30px;
+	right: 0;
+	z-index: 99999;
+	opacity: 1;
+	overflow: visible;
+}
+.navbar-toggler:focus {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+.navbar.navbar-expand-lg ul li {
+	padding: 10px 0px;
+}
+.box-outer {
+	position: relative;
+	-webkit-flex: 0 1 33%;
+	-ms-flex: 0 1 33%;
+	flex: 0 1 33%;
+	}
+	.second-box {
+	-webkit-flex: 1 33%;
+	-ms-flex: 1 33%;
+	flex: 0 1 33% !important;
+	height: auto;
+	margin-right: 30px;
+	}
+	.second-box img {
+	width: 100%;
+	}
+	.shadow-box {
+	width: 100%;
+	}
+}
+
+
