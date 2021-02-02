@@ -481,7 +481,60 @@ text-transform: uppercase;
 	width: 100%;
 	display: block;
 	overflow: hidden;
+	padding: 100px 0px 30px;
+}
+
+.image-box img {
+	width: 100%;
+}
+.image-with-text {
+	margin-top: 120px;
+	text-align: center;
+}
+
+.image-with-text h4 {
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: #333;
+}
+.image-with-text p {
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 27.22px;
+	margin-bottom: 0px;
+	color: #555;
+}
+ 
+.image-box {
+  margin-bottom: 70px;
+}
+ 
+
+.include-service {
+	width: 100%;
+	display: block;
+	background: url(../images/how-it-banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
 	padding: 100px 0px;
+}
+.shadow-text {
+	width: 100%;
+	background: #fff;
+	box-shadow: 0px 10px 22px #888;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.inner-shadow {
+	box-shadow: 0px 0px 22px #0000001a;
+	padding: 30px 15px;
+	border-radius: 10px;
+	background: #fbfbfb;
 }
 
 /*********footer**********/
